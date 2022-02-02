@@ -13,9 +13,28 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
-  return `# ${data.title}
-
+  return `
+  # ${data.title}
+  ## Description
+  ${data.description}
+  ## Table of Contents
+  ${generateTOC(data)}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## License
+  Placeholder for license
+  ## Contributing
+  ${data.contributing}
+  ## Tests
+  ${data.test}
+  ## Questions
+  Placeholder for GitHub and Email
 `;
 }
+
+// Used to make it dynamic for optional sections
+const generateTOC = (data) => {};
 
 module.exports = generateMarkdown;
