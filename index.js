@@ -67,6 +67,7 @@ const questions = [
       "Apache License 2.0",
       "GNU GPLv3",
       "Mozilla Public License 2.0",
+      "None",
     ],
   },
   {
