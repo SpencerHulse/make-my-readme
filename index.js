@@ -97,6 +97,12 @@ function init() {
     .then((answers) => {
       return generateMarkdown(answers);
     })
+    .then((readmeMarkdown) => {
+      return writeToFile(readmeMarkdown);
+    })
+    .then((writeFileResponse) => {
+      console.log(writeFileResponse);
+    })
     .catch((err) => {
       console.log(err);
     });
