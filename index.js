@@ -59,6 +59,17 @@ const questions = [
     },
   },
   {
+    type: "list",
+    name: "license",
+    message: "Which license would you like to include? (Required)",
+    choices: [
+      "MIT",
+      "Apache License 2.0",
+      "GNU GPLv3",
+      "Mozilla Public License 2.0",
+    ],
+  },
+  {
     type: "input",
     name: "contributing",
     message:
@@ -81,6 +92,32 @@ const questions = [
         return true;
       } else {
         console.log("Please enter test instructions!");
+        return false;
+      }
+    },
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "Please enter your GitHub username. (Required)",
+    validate: (githubInput) => {
+      if (githubInput) {
+        return true;
+      } else {
+        console.log("Please enter your GitHub username!");
+        return false;
+      }
+    },
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter your email address. (Required)",
+    validate: (emailInput) => {
+      if (emailInput) {
+        return true;
+      } else {
+        console.log("Please enter your email address!");
         return false;
       }
     },

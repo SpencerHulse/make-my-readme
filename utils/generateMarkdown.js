@@ -24,13 +24,14 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## License
-  Placeholder for license
+  ${data.license}
   ## Contributing
   ${data.contributing}
   ## Tests
   ${data.test}
   ## Questions
-  Placeholder for GitHub and Email
+  [GitHub](https://github.com/${data.github})
+  ${data.email}
 `;
 }
 
