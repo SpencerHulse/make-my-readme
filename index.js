@@ -125,11 +125,12 @@ const questions = [
   },
 ];
 
+// Prompts the user with the questions
 const promptReadme = () => {
   return inquirer.prompt(questions);
 };
 
-// TODO: Create a function to initialize app
+// Initializes the application
 function init() {
   promptReadme(questions)
     .then((answers) => {

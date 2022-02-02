@@ -29,7 +29,8 @@ function renderLicenseSection(license) {
   if (license === "None") {
     return "";
   } else {
-    return `
+    return `<a name="license"></a>
+    
 ## License
 
 This project is covered under the following license:
@@ -39,7 +40,26 @@ ${renderLicenseLink(license)}
   }
 }
 
-// TODO: Create a function to generate markdown for README
+function tableOfContents(license) {
+  if (license === "None") {
+    return `
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)`;
+  } else {
+    return `
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)`;
+  }
+}
+
+// Generates markdown for README
 function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
@@ -49,24 +69,29 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-
-${generateTOC(data)}
+${tableOfContents(data.license)}
+<a name="installation"></a>
 
 ## Installation
 
 ${data.installation}
+<a name="usage"></a>
 
 ## Usage
 
 ${data.usage}
 ${renderLicenseSection(data.license)}
+<a name="contributing"></a>
+
 ## Contributing
 
 ${data.contributing}
+<a name="tests"></a>
 
 ## Tests
 
 ${data.test}
+<a name="questions"></a>
 
 ## Questions
 
@@ -74,11 +99,8 @@ If you wish to view more of my work, feel free to visit my GitHub account. Addit
 
 [GitHub](https://github.com/${data.github})
 
-${data.email}
+<${data.email}>
 `;
 }
-
-// Used to make it dynamic for optional sections
-const generateTOC = (data) => {};
 
 module.exports = generateMarkdown;

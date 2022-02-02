@@ -1,6 +1,6 @@
 # Test
 
-![license badge](https://img.shields.io/badge/license-GNU-brightgreen)
+![license badge](https://img.shields.io/badge/license-Apache-brightgreen)
     
 ## Description
 
@@ -8,29 +8,41 @@ Test
 
 ## Table of Contents
 
-undefined
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+<a name="installation"></a>
 
 ## Installation
 
 Test
+<a name="usage"></a>
 
 ## Usage
 
 Test
-
+<a name="license"></a>
+    
 ## License
 
 This project is covered under the following license:
     
-[GNU GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
     
+<a name="contributing"></a>
+
 ## Contributing
 
 Test
+<a name="tests"></a>
 
 ## Tests
 
 Test
+<a name="questions"></a>
 
 ## Questions
 
@@ -38,4 +50,4 @@ If you wish to view more of my work, feel free to visit my GitHub account. Addit
 
 [GitHub](https://github.com/Test)
 
-Test
+<Test>
