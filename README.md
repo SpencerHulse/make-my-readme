@@ -41,6 +41,8 @@ Not accepting contributions at this time.
 
 ## Tests
 
+[Demonstration Video](https://watch.screencastify.com/v/Ns5DG4CASJ3Q6pwAtiUi)
+
 Enter "Test" when asked for input and pick any license, then check the dist directory for an example of what to expect.
 <a name="questions"></a>
 
