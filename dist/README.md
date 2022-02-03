@@ -1,16 +1,13 @@
-# Make My Readme
-
-![license badge](https://img.shields.io/badge/license-Apache-brightgreen)
+# newJobs(you)
 
 ## Description
 
-This is a project meant to help people make a professional readme.
+It is an application that allows you to see job listings in your area using your zip code.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -18,36 +15,29 @@ This is a project meant to help people make a professional readme.
 
 ## Installation
 
-Install node and inquirer after cloning the repository.
+Simply clone the repository or use the link in the README to use the application.
 <a name="usage"></a>
 
 ## Usage
 
-Simply go into the command line and enter node index.js to begin the application.
-<a name="license"></a>
-
-## License
-
-This project is covered under the following license:
-
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+Go to the landing page and enter the zip code in the space provided. It will then pull up jobs once you press enter or click the button.
 
 <a name="contributing"></a>
 
 ## Contributing
 
-Please do not contribute to this project.
+No contributions at this time. Thanks.
 <a name="tests"></a>
 
 ## Tests
 
-Enter anything you like when prompted and select any license. A readme will then be created and placed in the dist directory.
+Try typing in 10001 for the zip code and pressing enter to see New York, NY job listings.
 <a name="questions"></a>
 
 ## Questions
 
 If you wish to view more of my work, feel free to visit my GitHub account. Additionally, if you have any questions, you can contact me at the email address below. Thanks!
 
-[GitHub](https://github.com/SpencerHulse)
-
-<hulse.spencer@gmail.com>
+[Spencer's GitHub](https://github.com/SpencerHulse)
+[Melissa's GitHub](https://github.com/mets0811)
+[Atticus's GitHub](https://github.com/Atticus-Robinson)
