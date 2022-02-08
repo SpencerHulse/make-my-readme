@@ -4,7 +4,7 @@
 
 ## Description
 
-The project is meant to make it easy to create a professional README for any project.
+The project is meant to make it easy to create a professional README for any project. It uses node and inquirer.
 
 ## Table of Contents
 
